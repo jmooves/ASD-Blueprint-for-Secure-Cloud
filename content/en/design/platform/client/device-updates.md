@@ -76,7 +76,7 @@ Feature updates for Windows 10 and later policies cannot be applied during the A
 
 To avoid conflicts or configurations which might block installation of expedited updates, update rings policies should have the following settings:
 
-- Enable Pre-release: `Not Configured`
+- Enable Pre-release: _Not configured_
 - Automatic Update Behaviour: `Reset to default`
 - Change Notification Update Level: `Turn off all notifications including restart warnings`
 

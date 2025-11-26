@@ -124,10 +124,9 @@ While the Blueprint does not provide specific guidance on hardening data backups
 #### Configuration
 
 - [Configuration policies](/configuration/intune/devices/configuration-policies)
-- [Device management](/configuration/defender/settings/endpoints/device-management)
 
 #### External links
 
 - ASD's [Essential Eight](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight)
-- Microsoft's [Service Trust Portal](https://servicetrust.microsoft.com)
 - Microsoft's [_Guidance for meeting ASD's Essential Eight - Regular Backups_](https://learn.microsoft.com/en-au/compliance/anz/e8-backups)
+- Microsoft's [Service Trust Portal](https://servicetrust.microsoft.com)

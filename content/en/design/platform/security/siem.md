@@ -35,7 +35,7 @@ In a hybrid environment the SIEM can be located either on-premises or in the clo
 
 #### Configuration
 
-- [Device management](/configuration/defender/settings/endpoints/device-management)
+- [Device management](/configuration/defender/system/settings/endpoints/device-management)
 
 #### References
 

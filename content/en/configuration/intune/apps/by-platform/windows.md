@@ -179,7 +179,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 - [Microsoft Intune - Devices](/configuration/intune/devices)
 - [Microsoft Entra ID - Devices](/configuration/entra-id/devices)
 - [Windows](/configuration/intune/apps/by-platform/windows)
-- [Permissions](/configuration/defender/settings/endpoints/permissions)
+- [Permissions](/configuration/defender/system/settings/endpoints/permissions)
 
 #### References
 

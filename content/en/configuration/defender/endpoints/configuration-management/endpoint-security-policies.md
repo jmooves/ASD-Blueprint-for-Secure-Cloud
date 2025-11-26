@@ -1,7 +1,7 @@
 ---
 title: "Endpoint security policies"
-weight: 10
-description: "This section describes the configuration of endpoint security policies within Microsoft Defender associated with systems built according to the guidance provided by ASD's Blueprint for Secure Cloud."
+weight: 005
+description: "This section describes the configuration of endpoint security policy settings within Microsoft Defender associated with systems built according to the guidance provided by ASD's Blueprint for Secure Cloud."
 ---
 
 {{% alert title="Instruction" color="dark" %}}
@@ -20,7 +20,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 
 ### Windows policies
 
-{{% alert title="Note" color="info" %}}
+{{% alert title="Policy enforcement" color="info" %}}
 
 The below guidance on configuration to enforce security policies on endpoints. While organisations may choose to initially implement policies in audit mode, we recommend organisations aim to progress these policies into enforcement mode where possible.
 
@@ -167,37 +167,25 @@ The below guidance on configuration to enforce security policies on endpoints. W
 | ----- | ---------------------------: |
 | Group | _Organisation group name(s)_ |
 
-### Mac policies
-
-`Not configured`
-
-### Linux policies
-
-`Not configured`
-
 ### Related information
 
 #### Security and governance
 
+- [Essential Eight - Multi-factor-Authentication](/security-and-governance/essential-eight/multi-factor-authentication)
 - [Operating system hardening](/security-and-governance/system-security-plan/system-hardening-os)
 - [Patch operating system](/security-and-governance/essential-eight/patch-os)
-- [Essential Eight - Multi-factor-Authentication](/security-and-governance/essential-eight/multi-factor-authentication)
-- [Authentication hardening](/security-and-governance/system-security-plan/system-hardening-authentication)
 - [System management](/security-and-governance/system-security-plan/system-management)
 - [System monitoring](/security-and-governance/system-security-plan/system-monitoring)
 
 #### Design
 
-- [Devices](/design/platform/security/endpoint-security)
-- [Devices](/design/endpoints)
+- [Endpoints and devices](/design/platform/security/endpoint-security)
+- [Endpoints](/design/endpoints)
 
 #### Configuration
 
 - [Microsoft Intune - Devices](/configuration/intune/devices)
-- [Microsoft Entra ID - Devices](/configuration/entra-id/devices)
-- [iOS and iPadOS](/configuration/intune/apps/by-platform/ios-ipados)
-- [Entra ID Protection](/configuration/entra-id/protection)
 
 #### References
 
-- [Defender for Endpoint](https://learn.microsoft.com/microsoft-365/security/defender-endpoint)
+- [Manage endpoint security policies in Microsoft Defender for Endpoint](https://learn.microsoft.com/en-au/defender-endpoint/manage-security-policies)

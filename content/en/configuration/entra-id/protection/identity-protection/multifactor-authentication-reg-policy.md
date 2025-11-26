@@ -43,7 +43,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 
 - [Microsoft Intune - profile configurations](/configuration/intune/devices/configuration-policies)
 - [Entra ID protection](/configuration/entra-id/protection)
-- [Cloud apps settings](/configuration/defender/settings/cloud-apps/settings)
+- [Conditional Access App Control](/configuration/defender/system/settings/cloud-apps/conditional-access-app-control/)
 
 #### References
 

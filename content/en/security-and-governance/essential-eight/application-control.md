@@ -295,7 +295,7 @@ This includes the processing, analysis, and response to the following event logs
 - [Microsoft Intune - Applications](/configuration/intune/apps)
 - [Microsoft Entra ID - Applications](/configuration/entra-id/applications)
 - [Configuration policies](/configuration/intune/devices/configuration-policies)
-- [Cloud apps settings](/configuration/defender/settings/cloud-apps/settings)
+- [Conditional Access App Control](/configuration/defender/system/settings/cloud-apps/conditional-access-app-control/)
 
 #### External links
 

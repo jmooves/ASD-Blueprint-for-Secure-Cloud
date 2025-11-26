@@ -116,19 +116,20 @@ Where an organisation appropriately assesses this within another document, it ma
 
 #### Design
 
-- [Windows hardening](/design/endpoints/windows/security/windows-hardening)
-- [Microsoft Defender](/design/endpoints/windows/security/microsoft-defender)
-- [Windows hardware requirements](/design/endpoints/windows/hardware/hardware-requirements)
-- [Operating system](/design/endpoints/windows/configuration/operating-system)
-- [Windows update and patching](/design/endpoints/windows/configuration/windows-update-and-patching)
-- [iOS devices](/design/endpoints/ios/configuration/ios-devices)
 - [Endpoint Device Updates](/design/platform/client/device-updates)
+- [iOS devices](/design/endpoints/ios/configuration/ios-devices)
+- [Microsoft Defender](/design/endpoints/windows/security/microsoft-defender)
+- [Operating system](/design/endpoints/windows/configuration/operating-system)
+- [Windows hardening](/design/endpoints/windows/security/windows-hardening)
+- [Windows hardware requirements](/design/endpoints/windows/hardware/hardware-requirements)
+- [Windows update and patching](/design/endpoints/windows/configuration/windows-update-and-patching)
 
 #### Configuration
 
+- [Endpoint security policies](/configuration/defender/endpoints/configuration-management/endpoint-security-policies)
+- [iOS and iPadOS](/configuration/intune/apps/by-platform/ios-ipados)
 - [Microsoft Intune - Devices](/configuration/intune/devices)
 - [Microsoft Entra ID - Devices](/configuration/entra-id/devices)
-- [iOS and iPadOS](/configuration/intune/apps/by-platform/ios-ipados)
 - [Entra ID Protection](/configuration/entra-id/protection)
 
 #### External documentation

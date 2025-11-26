@@ -513,7 +513,7 @@ Further details on firewall configuration and proxy allow lists for the solution
 
 #### Configuration
 
-- [Device management](/configuration/defender/settings/endpoints/device-management)
+- [Device management](/configuration/defender/system/settings/endpoints/device-management)
 
 #### References
 

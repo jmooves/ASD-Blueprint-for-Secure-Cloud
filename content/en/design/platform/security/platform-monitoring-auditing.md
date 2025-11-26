@@ -56,7 +56,7 @@ Log Analytics configuration for all organisations and implementation types.
 
 #### Configuration
 
-- [Device management](/configuration/defender/settings/endpoints/device-management)
+- [Device management](/configuration/defender/system/settings/endpoints/device-management)
 
 #### References
 

@@ -63,7 +63,7 @@ Smart lockout duration automatically increases with subsequent lockouts.
 #### Configuration
 
 - [Conditional access](/configuration/entra-id/protection/conditional-access)
-- [Cloud apps settings](/configuration/defender/settings/cloud-apps/settings)
+- [Conditional Access App Control](/configuration/defender/system/settings/cloud-apps/conditional-access-app-control/)
 
 #### References
 

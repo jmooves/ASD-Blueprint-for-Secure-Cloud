@@ -70,6 +70,14 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 | ----------------- | ----: |
 | Use custom emojis |    On |
 
+### Messaging safety
+
+| Item                                 | Value |
+| ------------------------------------ | ----: |
+| Weaponizable file protection         |    On |
+| Malicious URL protection             |    On |
+| Report incorrect security detections |    On |
+
 ### Related information
 
 #### Security and governance
@@ -79,12 +87,14 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 #### Design
 
 - [Teams](/design/shared-services/teams)
+- [Teams clients](/design/endpoints/applications/teams-clients)
 
 #### Configuration
 
-- None identified
+- [User reported settings](/configuration/defender/system/settings/email-and-collaboration/user-reported-settings)
 
 #### References
 
 - [Manage messaging policies in Teams](https://learn.microsoft.com/en-au/microsoftteams/messaging-policies-in-teams)
 - [Teams settings and policies reference](https://learn.microsoft.com/en-au/microsoftteams/settings-policies-reference)
+- [User reported message settings in Microsoft Teams](https://learn.microsoft.com/en-au/defender-office-365/submissions-teams)

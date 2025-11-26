@@ -50,8 +50,8 @@ Microsoft Defender for Endpoint can be configured with the following options:
 #### Configuration
 
 - [Endpoint security policies](/configuration/defender/endpoints/configuration-management/endpoint-security-policies)
-- [Device management](/configuration/defender/settings/endpoints/device-management)
-- [Permissions](/configuration/defender/settings/endpoints/permissions)
+- [Device management](/configuration/defender/system/settings/endpoints/device-management)
+- [Permissions](/configuration/defender/system/settings/endpoints/permissions)
 
 #### References
 

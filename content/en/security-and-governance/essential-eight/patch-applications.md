@@ -207,7 +207,7 @@ In accordance with the [`<SYSTEM-NAME>` Vulnerability and Patch Management Proce
 - [Microsoft Entra ID - Applications](/configuration/entra-id/applications)
 - [Configuration policies](/configuration/intune/devices/configuration-policies)
 - [Endpoint security policies](/configuration/defender/endpoints/configuration-management/endpoint-security-policies)
-- [Device management](/configuration/defender/settings/endpoints/device-management)
+- [Device management](/configuration/defender/system/settings/endpoints/device-management)
 
 #### External links
 

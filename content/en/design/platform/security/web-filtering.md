@@ -33,7 +33,7 @@ For more detail on Microsoft Entra ID tenant restrictions, see [use tenant restr
 
 #### Configuration
 
-- [Device management](/configuration/defender/settings/endpoints/device-management)
+- None identified
 
 #### References
 

@@ -144,8 +144,8 @@ Technical controls backups and restoration are configured with reference to `<RE
 
 - [Configuration policies](/configuration/intune/devices/configuration-policies)
 - [Endpoint security policies](/configuration/defender/endpoints/configuration-management/endpoint-security-policies)
-- [Cloud apps settings](/configuration/defender/settings/cloud-apps/settings)
-- [Permissions](/configuration/defender/settings/endpoints/permissions)
+- [Conditional Access App Control](/configuration/defender/system/settings/cloud-apps/conditional-access-app-control/)
+- [Permissions](/configuration/defender/system/settings/endpoints/permissions)
 
 #### External links
 

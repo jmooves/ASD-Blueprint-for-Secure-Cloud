@@ -47,7 +47,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 #### Configuration
 
 - [User consent settings](/configuration/entra-id/applications/enterprise-applications/consent-and-permissions/user-consent-settings)
-- [Permissions](/configuration/defender/settings/endpoints/permissions)
+- [Permissions](/configuration/defender/system/settings/endpoints/permissions)
 
 #### References
 

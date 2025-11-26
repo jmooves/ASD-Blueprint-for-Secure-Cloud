@@ -52,7 +52,7 @@ Microsoft Defender Exploit guard comprises of the below features:
 
 #### Configuration
 
-- [Microsoft defender settings](/configuration/defender/settings)
+- [Microsoft defender settings](/configuration/defender/system/settings)
 - [Endpoint security policies](/configuration/defender/endpoints/configuration-management/endpoint-security-policies)
 - [ASD Windows hardening guidelines](/configuration/intune/devices/configuration-policies/asd-windows-hardening-guidelines)
 

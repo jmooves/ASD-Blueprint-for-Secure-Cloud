@@ -235,8 +235,8 @@ None
 - [iOS and iPadOS](/configuration/intune/apps/by-platform/ios-ipados)
 - [Microsoft Intune - profile configurations](/configuration/intune/devices/configuration-policies)
 - [Endpoint security policies](/configuration/defender/endpoints/configuration-management/endpoint-security-policies)
-- [Permissions](/configuration/defender/settings/endpoints/permissions)
-- [Rules](/configuration/defender/settings/endpoints/rules)
+- [Permissions](/configuration/defender/system/settings/endpoints/permissions)
+- [Rules](/configuration/defender/system/settings/endpoints/rules)
 
 #### References
 
