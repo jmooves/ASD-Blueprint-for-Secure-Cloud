@@ -35,7 +35,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 | Web content filtering                                                                       |            On |
 | Device discovery                                                                            |            On |
 | Download quarantined files                                                                  |            On |
-| Default to streamlined connectivity when onboarding devices in Defender portal​​              |            On |
+| Default to streamlined connectivity when onboarding devices in Defender portal​​            |            On |
 | Apply streamlined connectivity settings to devices managed by Intune and Defender for Cloud |            On |
 | Aggregated Reporting                                                                        |            On |
 | Isolation Exclusion Rules                                                                   |           Off |

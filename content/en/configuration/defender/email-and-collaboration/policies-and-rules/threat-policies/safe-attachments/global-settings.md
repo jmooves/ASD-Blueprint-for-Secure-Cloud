@@ -34,6 +34,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 
 #### Design
 
+- [Safe attachments](/design/shared-services/defender/safe-attachments)
 - [Teams clients](/design/endpoints/applications/teams-clients)
 
 #### Configuration

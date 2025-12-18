@@ -31,7 +31,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 | Malware                  | Quarantine policy<sup>1</sup> |
 | High-confidence phishing | Quarantine policy<sup>1</sup> |
 
-1: [Quarantine policies](/content/en/configuration/defender/email-and-collaboration/policies-and-rules/threat-policies/quarantine-policy/quarantine-policy) may need creating prior to using them with ZAP.
+1: [Quarantine policies](/configuration/defender/email-and-collaboration/policies-and-rules/threat-policies/quarantine-policy/quarantine-policy) may need creating prior to using them with ZAP.
 
 #### Exclude these participants
 
@@ -53,7 +53,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 
 #### Configuration
 
-- [Quarantine policy](configuration/defender/email-and-collaboration/policies-and-rules/threat-policies/quarantine-policy/quarantine-policy)
+- [Quarantine policy](/configuration/defender/email-and-collaboration/policies-and-rules/threat-policies/quarantine-policy/quarantine-policy)
 
 #### References
 

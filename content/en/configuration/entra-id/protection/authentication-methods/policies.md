@@ -94,7 +94,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 | Maximum lifetime |       8 hours |
 | Default lifetime |        1 hour |
 | One-time         |            No |
-| Length           | 14 characters |
+| Length           | 15 characters |
 
 ### Related information
 

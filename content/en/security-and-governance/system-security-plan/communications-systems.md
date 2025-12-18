@@ -82,33 +82,31 @@ Technical controls for `<SYSTEM-NAME>`'s implementation of Microsoft Teams for v
 
 `<INSERT ADDITIONAL INFORMATION AS APPROPRIATE>`
 
-### Fax machines and multifunction devices
+### Multifunction devices
 
 {{% alert title="Blueprint guidance" color="info" %}}
 
-The Blueprint does not cover management of fax machines or multifunction devices. However, organisations may find the below template a useful guide for documenting the use of fax machines or multifunction devices associated with system(s) built using the Blueprint.
+The Blueprint does not cover management of multifunction devices (MFDs). However, organisations may find the below template a useful guide for documenting the use of multifunction devices associated with system(s) built using the Blueprint.
 
 {{% /alert %}}
 
 #### Applicability
 
-ISM controls relating to multifunction devices (MFDs) are applicable to `<ORGANISATION-NAME>`'s use of MFDs for office productivity purposes. These devices are connected to `<SYSTEM-NAME>` for printing and scanning services. However, the technical implementation of these devices is not within the authorisation boundary of `<SYSTEM-NAME>`.
+ISM controls relating to MFDs are applicable to `<ORGANISATION-NAME>`'s use of MFDs for office productivity purposes. These devices are connected to `<SYSTEM-NAME>` for printing and scanning services. However, the technical implementation of these devices is not within the authorisation boundary of `<SYSTEM-NAME>`.
 
 Please see the `<PRINT-SYSTEM>` System Security at Plan `<insert document reference here>` for further information on implementation of these services.
-
-`<ORGANISATION-NAME>` does not use faxing services, and therefore these controls are not in scope of this SSP.
 
 `<INSERT ADDITIONAL INFORMATION AS APPROPRIATE>`
 
 #### Organisational policies and processes implemented
 
-Appropriate organisational use of MFDs and fax machines is detailed in the `<ORGANISATION-NAME>`'s [Fax Machine and MFD Usage Policy](/security-and-governance/policies).
+Appropriate organisational use of MFDs is detailed in the `<ORGANISATION-NAME>`'s [Fax Machine and MFD Usage Policy](/security-and-governance/policies).
 
 `<INSERT ADDITIONAL INFORMATION AS APPROPRIATE>`
 
 #### Technical controls implemented
 
-No technical controls are implemented in `<SYSTEM-NAME>` relating to the use of fax machines or MFDs.
+No technical controls are implemented in `<SYSTEM-NAME>` relating to the use of MFDs.
 
 `<INSERT ADDITIONAL INFORMATION AS APPROPRIATE>`
 

@@ -39,6 +39,12 @@ Technical controls for authentication hardening within `<SYSTEM-NAME>`'s are con
 
 Microsoft Entra ID is configured as the central store for identity and access management within `<SYSTEM-NAME>`, acting as central management for user authentication and authorisation to various Single Sign On (SSO), including as for access to `<SYSTEM-NAME>` Windows endpoints. Notably, Entra ID implements SAML 2.0, OpenID Connect, and WS-Federation for authentication and authorisation to Microsoft applications and services, with legacy authentication methods disabled.
 
+{{% alert title="Instruction" color="dark" %}}
+
+Due to default [Microsoft Entra password policies](https://learn.microsoft.com/en-au/entra/identity/authentication/concept-sspr-policy?tabs=ms-powershell#microsoft-entra-password-policies), control ISM-2079 _Password complexity requirements are not imposed for passwords_ cannot be achieved for system(s) built using the Blueprint.
+
+{{% /alert %}}
+
 Technical controls are implemented according to the relevant ISM control topics listed below:
 
 <div class="no-band-table">
@@ -49,7 +55,6 @@ Technical controls are implemented according to the relevant ISM control topics 
 | **Insecure Authentication Methods:**                                                                                         | legacy authentication methods are disabled                                                                                                                                                                                                             |
 | **Multi-factor and Single Factor Authentication Methods:**                                                                   | Microsoft Entra ID MFA is enforced for all standard and privileged users accessing Microsoft 365 services                                                                                                                                              |
 |                                                                                                                              | Microsoft Entra ID MFA requires Microsoft Entra ID password and a phishing-resistant MFA method (Windows Hello for Business, passkeys (FIDO2), certificate-based authentication (multifactor))                                                         |
-|                                                                                                                              | Entra ID password/passphrase complexity enforces a minimum of least 4 random words with a total minimum length of 15 characters                                                                                                                        |
 |                                                                                                                              | none of the authentication factors on their own can be used for single-factor authentication to another system                                                                                                                                         |
 |                                                                                                                              | all authentication attempts are logged in Microsoft Entra ID Sign-ins                                                                                                                                                                                  |
 |                                                                                                                              | Microsoft Entra ID logs are forwarded to a Log Analytics workspace for long-term secure retention                                                                                                                                                      |
@@ -91,3 +96,4 @@ Technical controls are implemented according to the relevant ISM control topics 
 
 - ASD's [_Guidelines for System Hardening_](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-system-hardening)
 - [Log Analytics tutorial](https://learn.microsoft.com/azure/azure-monitor/logs/log-analytics-tutorial)
+- [Microsoft Entra password policies](https://learn.microsoft.com/en-au/entra/identity/authentication/concept-sspr-policy?tabs=ms-powershell#microsoft-entra-password-policies)

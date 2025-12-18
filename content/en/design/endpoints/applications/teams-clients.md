@@ -130,11 +130,11 @@ Using Purview for Teams containers, chats, and channels is discussed in more det
 #### Design
 
 - [Information labelling and classification](/design/shared-services/purview/labelling-and-classification)
+- [Safe attachments](/design/shared-services/defender/safe-attachments)
 
 #### Configuration
 
 - [Conditional Access policies](/configuration/entra-id/protection/conditional-access/policies)
-- [Global settings](/configuration/defender/email-and-collaboration/policies-and-rules/threat-policies/safe-attachments/safe-attachments-policy)
 - [Messaging](/configuration/teams/setting-and-policies/global-settings/messaging/messaging)
 - [Microsoft Teams protection](/configuration/defender/system/settings/email-and-collaboration/microsoft-teams-protection)
 - [Safe attachments policy](/configuration/defender/email-and-collaboration/policies-and-rules/threat-policies/safe-attachments/safe-attachments-policy)
@@ -158,7 +158,6 @@ Using Purview for Teams containers, chats, and channels is discussed in more det
 - [Overview of Teams certified devices](https://learn.microsoft.com/en-au/microsoftteams/devices/certified-devices-overview)
 - [Prepare your organization's network for Microsoft Teams](https://learn.microsoft.com/en-au/microsoftteams/prepare-network)
 - [Require end-to-end encryption for sensitive Teams meetings](https://learn.microsoft.com/en-au/microsoftteams/end-to-end-encrypted-meetings)
-- [Microsoft Teams client](https://learn.microsoft.com/en-au/microsoftteams/teams-client-desktop-admin)
 - [Use end-to-end encryption for one-to-one Microsoft Teams calls](https://learn.microsoft.com/en-au/microsoftteams/teams-end-to-end-encryption)
 - [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://learn.microsoft.com/en-au/purview/sensitivity-labels-teams-groups-sites)
 - [Use the Network planner for Microsoft Teams](https://learn.microsoft.com/en-au/microsoftteams/network-planner)

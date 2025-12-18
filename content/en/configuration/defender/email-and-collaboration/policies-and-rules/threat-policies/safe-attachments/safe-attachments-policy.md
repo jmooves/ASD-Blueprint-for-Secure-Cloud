@@ -1,5 +1,5 @@
 ---
-title: "Safe links policy"
+title: "Safe attachments policy"
 weight: 010
 description: "This section describes the configuration of the safe attachments policy settings within Microsoft Defender associated with systems built according to the guidance provided by ASD's Blueprint for Secure Cloud."
 ---
@@ -8,7 +8,7 @@ description: "This section describes the configuration of the safe attachments p
 
 The below pages outline the _as built_ configuration for ASD's _Blueprint for Secure Cloud_ (the Blueprint) for the Microsoft Defender portal at the following URL:
 
-<https://security.microsoft.com/safelinksv2>
+<https://security.microsoft.com/safeattachmentv2>
 
 The settings described on these pages provide a baseline implementation for a system configured using the Blueprint. Any implementation implied by these pages should not be considered as prescriptive as to how an organisation must scope, build, document, or assess a system.
 
@@ -51,9 +51,10 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 
 #### Redirect messages with detected attachments
 
-| Item            |     Value |
-| --------------- | --------: |
-| Enable redirect | Unchecked |
+| Item                                                                             |                                               Value |
+| -------------------------------------------------------------------------------- | --------------------------------------------------: |
+| Enable redirect                                                                  |                                             Checked |
+| Send messages that contain monitored attachments to the specified email address. | `<securitiy_operations_centre@organisation.gov.au>` |
 
 ### Related information
 
@@ -63,6 +64,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 
 #### Design
 
+- [Safe attachments](/design/shared-services/defender/safe-attachments)
 - [Teams clients](/design/endpoints/applications/teams-clients)
 
 #### Configuration

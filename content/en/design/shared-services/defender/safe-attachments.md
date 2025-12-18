@@ -1,18 +1,18 @@
 ---
-title: "Safe Attachments"
+title: "Safe attachments"
 weight: 60
-description: "This section describes the design decisions associated with Safe Attachments Microsoft 365 security features for system(s) built using ASD's Blueprint for Secure Cloud."
+description: "This section describes the design decisions associated with Safe attachments Microsoft 365 security features for system(s) built using ASD's Blueprint for Secure Cloud."
 ---
 
-The Safe Attachments feature checks email attachments after the email is received but before it is delivered to the user mailbox.
+The Safe attachments feature checks email attachments after the email is received but before it is delivered to the user mailbox.
 
-When an Safe Attachments policy is in place and an end-user who is covered by that policy views their email in Office 365, their email attachments are checked, and appropriate actions are taken, based on the configured policies.
+When an Safe attachments policy is in place and an end-user who is covered by that policy views their email in Office 365, their email attachments are checked, and appropriate actions are taken, based on the configured policies.
 
 {{% alert title="Design decisions" color="warning" %}}
 
 | Decision point                                                                                           | Design decision          | Justification                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft Defender for Office 365 Safe Attachments                                                       | Configured               | Configured to align with ASD's Malicious Email Mitigation Strategies and Microsoft guidance                                                                                                                               |
+| Microsoft Defender for Office 365 Safe attachments                                                       | Configured               | Configured to align with ASD's Malicious Email Mitigation Strategies and Microsoft guidance                                                                                                                               |
 | Protect files in SharePoint, OneDrive, and Microsoft Teams                                               | Ticked                   | If a file in any SharePoint, OneDrive, or Microsoft Teams library is identified as malicious, Microsoft Defender for Endpoints will prevent users from opening and downloading the file.                                  |
 | Turn on Safe Documents for Office clients                                                                | Ticked                   | Before a user is allowed to trust a file opened in Office 365 ProPlus, the file will be verified by Microsoft Defender for Endpoints.                                                                                     |
 | Warning                                                                                                  | Dynamic Delivery         | Dynamic Delivery ensures attachments are scanned and detected malware is quarantined. It also includes attachment previewing capabilities for most PDFs and Office files during scanning.                                 |
@@ -30,13 +30,14 @@ When an Safe Attachments policy is in place and an end-user who is covered by th
 
 #### Design
 
-- None identified
+- [Teams clients](/design/endpoints/applications/teams-clients)
 
 #### Configuration
 
-- None identified
+- [Global settings](/configuration/defender/email-and-collaboration/policies-and-rules/threat-policies/safe-attachments/global-settings)
+- [Safe attachments policy](/configuration/defender/email-and-collaboration/policies-and-rules/threat-policies/safe-attachments/safe-attachments-policy)
 
 #### References
 
 - [Malicious Email Mitigation Strategies](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/email-hardening/malicious-email-mitigation-strategies)
-- [Turn on Safe Attachments for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-mdo-for-spo-odb-and-teams?view=o365-worldwide)
+- [Turn on Safe attachments for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-mdo-for-spo-odb-and-teams?view=o365-worldwide)

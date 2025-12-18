@@ -60,30 +60,29 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 
 #### System Security
 
-| Item                                                            |                                                        Value |
-| --------------------------------------------------------------- | -----------------------------------------------------------: |
-| **Password**                                                    |                                                              |
-| Require a password to unlock mobile devices                     |                                                      Require |
-| Simple passwords                                                |                                                        Block |
-| Password type                                                   |                                                 Alphanumeric |
-| Password complexity                                             | Require digits, lowercase, uppercase, and special characters |
-| Minimum password length                                         |                                                           15 |
-| Maximum minutes of inactivity before password is required       |                                                   15 minutes |
-| Password expiration (days)                                      |                                                          365 |
-| Number of previous passwords to prevent reuse                   |                                                            5 |
-| Require password when device returns from idle state            |                                                      Require |
-| **Encryption**                                                  |                                                              |
-| Require encryption of data storage on device                    |                                                      Require |
-| **Device Security**                                             |                                                              |
-| Firewall                                                        |                                                      Require |
-| Trusted Platform Module (TPM)                                   |                                                      Require |
-| Antivirus                                                       |                                                      Require |
-| Antispyware                                                     |                                                      Require |
-| **Defender**                                                    |                                                              |
-| Microsoft Defender Antimalware                                  |                                                      Require |
-| Microsoft Defender Antimalware minimum version                  |                                                     4.18.0.0 |
-| Microsoft Defender Antimalware security intelligence up-to-date |                                                      Require |
-| Real-time protection                                            |                                                      Require |
+| Item                                                            |          Value |
+| --------------------------------------------------------------- | -------------: |
+| **Password**                                                    |                |
+| Require a password to unlock mobile devices                     |        Require |
+| Simple passwords                                                |          Block |
+| Password type                                                   | Device default |
+| Minimum password length                                         |             15 |
+| Maximum minutes of inactivity before password is required       |     15 minutes |
+| Password expiration (days)                                      |            365 |
+| Number of previous passwords to prevent reuse                   |              5 |
+| Require password when device returns from idle state            |        Require |
+| **Encryption**                                                  |                |
+| Require encryption of data storage on device                    |        Require |
+| **Device Security**                                             |                |
+| Firewall                                                        |        Require |
+| Trusted Platform Module (TPM)                                   |        Require |
+| Antivirus                                                       |        Require |
+| Antispyware                                                     |        Require |
+| **Defender**                                                    |                |
+| Microsoft Defender Antimalware                                  |        Require |
+| Microsoft Defender Antimalware minimum version                  |       4.18.0.0 |
+| Microsoft Defender Antimalware security intelligence up-to-date |        Require |
+| Real-time protection                                            |        Require |
 
 #### Microsoft Defender for Endpoint
 

@@ -29,13 +29,13 @@ However, `<SYSTEM-NAME>` does leverage software developed by Microsoft as part o
 
 #### Organisational policies and processes implemented
 
-- None Identified
+No organisational policies and processes are implemented in `<SYSTEM-NAME>` relating to software development.
 
 `<INSERT ADDITIONAL INFORMATION AS APPROPRIATE>`
 
 #### Technical controls implemented
 
-- None Identified
+No technical controls are implemented in `<SYSTEM-NAME>` relating to the use of software development.
 
 `<INSERT ADDITIONAL INFORMATION AS APPROPRIATE>`
 

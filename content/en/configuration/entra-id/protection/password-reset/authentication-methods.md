@@ -29,7 +29,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 | ----------------------- | -----------: |
 | Mobile app notification |     Selected |
 | Mobile app code         |     Selected |
-| Email                   |     Selected |
+| Email                   | Not Selected |
 | Mobile phone            |     Selected |
 | Office phone            | Not Selected |
 | Security questions      | Not Selected |

@@ -21,7 +21,7 @@ Placeholders such as `<ORGANISATION.GOV.AU>`, `<BLUEPRINT.GOV.AU>` and `<TENANT-
 
 All Conditional Access policies in the DSC are set to report only and will need to be enabled manually.
 
-Microsoft-managed policies ()like those below) may be created as a result of other Entra ID settings and identified by a _MICROSOFT-MANAGED_ tag. These policies can be disabled as they're superseded by Blueprint policies.
+Microsoft-managed policies (like those below) may be created as a result of other Entra ID settings and identified by a _MICROSOFT-MANAGED_ tag. These policies can be disabled as they're superseded by Blueprint policies.
 
 | Name                                                                     | Enable policy |
 | ------------------------------------------------------------------------ | ------------: |
